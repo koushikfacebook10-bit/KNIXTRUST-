@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KNIXTRUST</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;font-family:Arial,sans-serif;background:#050505;color:#fff}
+.hero{
+ min-height:100vh;display:flex;align-items:center;justify-content:center;
+ position:relative;overflow:hidden;padding:20px;
+ background-image:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,.82)),url("anime-background.jpg");
+ background-size:cover;background-position:center;
+}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,transparent 0,rgba(0,0,0,.35) 65%,rgba(0,0,0,.78) 100%)}
+.card{
+ position:relative;z-index:2;width:min(430px,94vw);padding:34px 24px;
+ text-align:center;border:1px solid rgba(255,255,255,.22);border-radius:28px;
+ background:rgba(8,8,8,.50);backdrop-filter:blur(12px);
+ box-shadow:0 25px 90px rgba(0,0,0,.7);
+}
+.logo{width:88px;height:88px;border-radius:50%;object-fit:cover;border:2px solid #fff;margin-bottom:16px}
+h1{font-size:36px;letter-spacing:5px}
+.sub{margin:8px 0 25px;font-size:12px;letter-spacing:3px;opacity:.7}
+.btn{display:block;text-decoration:none;color:white;padding:15px;margin:12px 0;border-radius:15px;font-weight:700;transition:.2s;border:1px solid rgba(255,255,255,.2)}
+.btn:hover{transform:translateY(-3px);filter:brightness(1.12)}
+.tg{background:#168de2}.ig{background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);border:0}
+.footer{font-size:11px;opacity:.55;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="card">
+    <img class="logo" src="anime-background.jpg" alt="KNIXTRUST">
+    <h1>KNIXTRUST</h1>
+    <div class="sub">WELCOME TO KNIXTRUST</div>
+    <a class="btn tg" href="https://t.me/KNIXTRUST" target="_blank">✈ TELEGRAM — @KNIXTRUST</a>
+    <a class="btn ig" href="https://www.instagram.com/dubble_unsubscribe_/" target="_blank">◎ INSTAGRAM — DUBBLE UNSUBSCRIBE</a>
+    <div class="footer">© 2026 KNIXTRUST</div>
+  </div>
+</div>
+</body>
+</html>
